@@ -1,0 +1,627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alipay\n"
+"POT-Creation-Date: 2016-12-30 18:28+0800\n"
+"PO-Revision-Date: 2016-12-30 18:28+0800\n"
+"Last-Translator: ranj <ranj@evget.com>\n"
+"Language-Team: 重庆迅虎网络有限公司 <jeff@xunhuweb.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-xh-alipay-edd-api.php:78 class-xh-alipay-edd-api.php:221
+#: class-xh-alipay-edd-api.php:349 class-xh-alipay-edd-api.php:362
+#: class-xh-alipay-edd-api.php:363
+msgid "Alipay Payment"
+msgstr "支付宝"
+
+#: class-xh-alipay-edd-api.php:96
+msgid "Alipay Payment Settings"
+msgstr "支付宝设置"
+
+#: class-xh-alipay-edd-api.php:102
+msgid "Title"
+msgstr "标题"
+
+#: class-xh-alipay-edd-api.php:107
+msgid "APP ID"
+msgstr "APP ID"
+
+#: class-xh-alipay-edd-api.php:109
+msgid ""
+"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">register and get "
+"app id</a>."
+msgstr ""
+"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">注册并获取APP ID</"
+"a>."
+
+#: class-xh-alipay-edd-api.php:113
+msgid "APP Secret"
+msgstr "APP Secret"
+
+#: class-xh-alipay-edd-api.php:115
+msgid ""
+"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">register and get "
+"app secret</a>."
+msgstr ""
+"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">注册并获取APP "
+"Secret</a>."
+
+#: class-xh-alipay-edd-api.php:119
+msgid "Transaction Url"
+msgstr "网关地址"
+
+#: class-xh-alipay-edd-api.php:124
+msgid "exchange rate"
+msgstr "汇率"
+
+#: class-xh-alipay-edd-api.php:126
+msgid ""
+"Please set current currency against Chinese Yuan exchange rate,default 1."
+msgstr "请设置当前货币转人民币的汇率，默认为1"
+
+#: class-xh-alipay-edd-api.php:242
+msgid "Settings"
+msgstr "设置"
+
+#: class-xh-alipay-edd-api.php:260
+msgid "Nonce verification has failed"
+msgstr "页面已失效，请刷新页面后重试"
+
+#: class-xh-alipay-edd-api.php:260
+msgid "Error"
+msgstr "错误"
+
+#: class-xh-alipay-edd-api.php:280
+msgid "Payment Error"
+msgstr "支付错误"
+
+#: class-xh-alipay-edd-api.php:280
+msgid "Ops!Something is wrong"
+msgstr "噢！发生了不可预测的错误。"
+
+#: class-xh-alipay-edd-api.php:332
+msgid "Invalid sign!"
+msgstr "签名无效！"
+
+#: class-xh-alipay-edd-api.php:355
+msgid "Chinese Yuan(&yen;)"
+msgstr "人民币(&yen;)"
+
+#~ msgid "return_msg:%s ;err_code_des:%s "
+#~ msgstr "return_msg:%s ;err_code_des:%s "
+
+#~ msgid "Please use alipay app scan the qrcode to pay."
+#~ msgstr "请使用微信APP扫描二维码进行支付"
+
+#~ msgid "Your payment is successful!"
+#~ msgstr "支付成功！"
+
+#~ msgid "AppID"
+#~ msgstr "App ID"
+
+#~ msgid "MerchantID"
+#~ msgstr "商户ID"
+
+#~ msgid "MerchantSecret"
+#~ msgstr "商户密钥"
+
+#~ msgid "Loading..."
+#~ msgstr "加载中..."
+
+#~ msgid "Alipay Settings"
+#~ msgstr "微信设置"
+
+#~ msgid "alipay"
+#~ msgstr "微信"
+
+#~ msgid "alipay Settings"
+#~ msgstr "支付宝设置"
+
+#~ msgid ""
+#~ "WooCommerce WeChat Pay Plugin helps to add WeChat Pay payment gateway "
+#~ "that supports the features including QR code payment, OA native payment, "
+#~ "refund to WeChat wallet, exchange rate, automatic login, red envelop "
+#~ "promotion and red envelop cashback. "
+#~ msgstr ""
+#~ "WooCommerce微信支付插件为WooCommerce增加微信支付网关，支持微信扫码支付和"
+#~ "公众号原生支付功能，退款到微信零钱，汇率，微信自动登录，红包推广，红包返"
+#~ "现等促销功能。"
+
+#~ msgid "Pay now"
+#~ msgstr "立即支付"
+
+#~ msgid "QR Code Payment"
+#~ msgstr "微信扫码支付"
+
+#~ msgid "Red Envelop Promotion Setting"
+#~ msgstr "红包推广设置"
+
+#~ msgid "Unit Price Per Red Envelop"
+#~ msgstr "单个红包价格"
+
+#~ msgid ""
+#~ "Option 1: Enter the price (from 1 to 100), such as 3.5. Option 2: Enter "
+#~ "the price range (from 1 to 200), such as 3 to 10 (the red envelop is "
+#~ "rounded and delivered at random)"
+#~ msgstr ""
+#~ "方式1：输入1~100内的价格，如：3.5;方式2：输入1到200的范围价格，如3-10(随"
+#~ "机取整发红包)"
+
+#~ msgid "No. of the remaining red envelop"
+#~ msgstr "剩余红包个数"
+
+#~ msgid "No. of the red envelop sent"
+#~ msgstr "已发红包个数"
+
+#~ msgid "The amount of the red envelop sent"
+#~ msgstr "已发红包金额"
+
+#~ msgid "Red Envelop Upon Order Setting"
+#~ msgstr "订单红包设置"
+
+#~ msgid "Red envelop upon order is required"
+#~ msgstr "红包订单是必须的"
+
+#~ msgid "The price of red envelop is not legal (￥%s)"
+#~ msgstr "红包价格不合法(￥%s)"
+
+#~ msgid "The open ID of the recipient is required"
+#~ msgstr "红包接收人的openid是必须的"
+
+#~ msgid "Merchant name is required"
+#~ msgstr "商户名称是必须的"
+
+#~ msgid "Greetings are required"
+#~ msgstr "祝福语是必须的"
+
+#~ msgid "Activity name is required"
+#~ msgstr "活动名称是必须的"
+
+#~ msgid "Remark is required"
+#~ msgstr "备注是必须的"
+
+#~ msgid "Red envelop promotion"
+#~ msgstr "红包推广"
+
+#~ msgid "Sent Successfully"
+#~ msgstr "发送成功"
+
+#~ msgid "Unpaid or not via WeChat. Not able to get the open ID of the user"
+#~ msgstr "订单未支付或不是微信支付。未获得用户的openid"
+
+#~ msgid "Red envelop upon order"
+#~ msgstr "订单红包"
+
+#~ msgid "enable/disable"
+#~ msgstr "启用/禁用"
+
+#~ msgid "enable alipay payment"
+#~ msgstr "启用微信支付"
+
+#~ msgid "Payment gateway name"
+#~ msgstr "支付网关名称"
+
+#~ msgid "Payment gateway description"
+#~ msgstr "支付网关描述"
+
+#~ msgid "QR code payment or OA native payment, credit card"
+#~ msgstr "微信扫码支付或者微信公众号原生支付，支持信用卡"
+
+#~ msgid "App ID (Application ID)"
+#~ msgstr "AppID(应用ID)"
+
+#~ msgid ""
+#~ "Application ID can be found at the \"developer center\" column of WeChat "
+#~ "public platform"
+#~ msgstr "应用ID， 在微信公众平台中 “开发者中心”栏目可以查看到"
+
+#~ msgid "App Key"
+#~ msgstr "AppSecret(应用密钥)"
+
+#~ msgid ""
+#~ "Key can be found at the \"developer center\" column of WeChat public "
+#~ "platform"
+#~ msgstr "Secret， 在微信公众平台中 “开发者中心”栏目可以查看到"
+
+#~ msgid "WeChat Pay Merchant ID"
+#~ msgstr "微信支付商户号"
+
+#~ msgid ""
+#~ "Please enter your merchant ID. If you do not have one, please click <a "
+#~ "target=\"_blank\" href=\"https://pay.weixin.qq.com/\"> to get</a>"
+#~ msgstr ""
+#~ "请输入商户账号，如果没有，<a target=\"_blank\" href=\"https://pay.weixin."
+#~ "qq.com/\">点击这里</a>获取。"
+
+#~ msgid "WeChat Pay Merchant Key"
+#~ msgstr "微信支付密钥"
+
+#~ msgid ""
+#~ "The \"account setting\"--\"account security\"--\"set API key\" at WeChat "
+#~ "merchant's platform. Editable but not viewable "
+#~ msgstr ""
+#~ "在微信商户平台中“账户设置”--“账户安全”--“设置API密钥”，只能修改不能查看"
+
+#~ msgid "Login"
+#~ msgstr "微信登录"
+
+#~ msgid "WeChat automatic login when there is no login found"
+#~ msgstr "检查到用户未登录的情况下，进行微信登录"
+
+#~ msgid "disabled"
+#~ msgstr "不启用"
+
+#~ msgid ""
+#~ "WeChat + PC access (automatic login within WeChat and viewable at PC end)"
+#~ msgstr "微信+PC访问(微信内自动微信登录,PC端正常浏览)"
+
+#~ msgid "Only for WeChat (fit for all WeChat apps with no PC end)"
+#~ msgstr "仅限微信访问(适合无PC端的微信应用)"
+
+#~ msgid "Enable WeChat shipping address"
+#~ msgstr "启用微信收货地址"
+
+#~ msgid ""
+#~ "Add the modifiable default button style of <code>.btn-alipay-pay{ }</"
+#~ "code> at theme style"
+#~ msgstr ""
+#~ "在主题样式中，新增<code>.btn-alipay-pay{ }</code>可修改默认按钮样式"
+
+#~ msgid "Disabled at mobile browsers"
+#~ msgstr "在手机浏览器中禁用"
+
+#~ msgid "Set the exchange rate to RMB. When it is RMB, the default is 1"
+#~ msgstr "设置转换成人名币的汇率，(当前货币为人名币)时，默认值为1"
+
+#~ msgid "enable"
+#~ msgstr "启用"
+
+#~ msgid ""
+#~ "Red envelop promotion: To share the product information to the circle of "
+#~ "friends. Once the product is ordered, the sharer will get red envelop. "
+#~ "The more share, the more possible red envelop."
+#~ msgstr ""
+#~ "红包推广：分享产品到朋友圈，此产品下单成功，分享者即可获得红包，分享越"
+#~ "多，红包获得越多。"
+
+#~ msgid ""
+#~ "【Required】The merchant name is required while sending red envelop. "
+#~ "Your can enter your website name (6 Chinese characters at most)"
+#~ msgstr ""
+#~ "【必填】发送红包时，需要商户名称，您可以填写您的网站名(最多6个汉字)"
+
+#~ msgid "Activity Name"
+#~ msgstr "活动名称"
+
+#~ msgid "Share and get rewarded"
+#~ msgstr "分享有礼"
+
+#~ msgid ""
+#~ "【Required】The activity name is required while sending red envelop (6 "
+#~ "Chinese characters at most)."
+#~ msgstr "【必填】发送红包时，需要活动名称(最多6个汉字)"
+
+#~ msgid "Greetings"
+#~ msgstr "祝福语"
+
+#~ msgid "Thanks for your time"
+#~ msgstr "感谢参与"
+
+#~ msgid ""
+#~ "【Required】The greetings are required while sending red envelop (20 "
+#~ "Chinese characters at most)."
+#~ msgstr "【必填】发送红包时，需要祝福语(最多20个汉字)"
+
+#~ msgid ""
+#~ "Red Envelop Cashback: the cashback of red envelop will be available once "
+#~ "the order is done successfully for the promotion and encouragement"
+#~ msgstr "红包返现：用户下单成功，获得红包返现，用于促销活动，促进支付"
+
+#~ msgid "Order Status"
+#~ msgstr "订单状态"
+
+#~ msgid "The red envelop is triggered when the order is selected"
+#~ msgstr "订单处于选中状态时触发红包"
+
+#~ msgid "Order Cashback"
+#~ msgstr "订单返现"
+
+#~ msgid "Wrong Order"
+#~ msgstr "错误的订单"
+
+#~ msgid "The WeChat transaction ID is not found or the order is unpaid"
+#~ msgstr "未找到微信支付交易号或订单未支付"
+
+#~ msgid "Redirecting to WeChat Pay..."
+#~ msgstr "正在跳转微信支付..."
+
+#~ msgid "Re-pay"
+#~ msgstr "重新支付"
+
+#~ msgid "Order ID"
+#~ msgstr "订单ID"
+
+#~ msgid "Search"
+#~ msgstr "查询"
+
+#~ msgid "Bulk Operations "
+#~ msgstr "批量操作"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
+
+#~ msgid "Check all"
+#~ msgstr "选中所有"
+
+#~ msgid "User"
+#~ msgstr "用户"
+
+#~ msgid "Amount"
+#~ msgstr "金额"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "Detail"
+#~ msgstr "详细"
+
+#~ msgid "Time"
+#~ msgstr "时间"
+
+#~ msgid "Promotional Red Envelop"
+#~ msgstr "推广红包"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Fail"
+#~ msgstr "失败"
+
+#~ msgid "WeChat Shipping Address"
+#~ msgstr "微信收货地址"
+
+#~ msgid "Synchronize Now"
+#~ msgstr "立即同步"
+
+#~ msgid "%s items"
+#~ msgstr "共%s个"
+
+#~ msgid "first page"
+#~ msgstr "第一页"
+
+#~ msgid "prev page"
+#~ msgstr "上一页"
+
+#~ msgid "page %s, %s pages"
+#~ msgstr "第%s也，共%s页"
+
+#~ msgid "next page"
+#~ msgstr "下一页"
+
+#~ msgid "last page"
+#~ msgstr "最后一页"
+
+#~ msgid "WeChat loading fails"
+#~ msgstr "微信加载失败"
+
+#~ msgid "Error, please try again later."
+#~ msgstr "系统错误，请稍候重试"
+
+#~ msgid "Loading the shipping address..."
+#~ msgstr "正在加载微信送货地址..."
+
+#~ msgid "User information loading fails"
+#~ msgstr "微信用户信息加载失败"
+
+#~ msgid "Log in, please wait..."
+#~ msgstr "登陆中，请稍候..."
+
+#~ msgid "WeChat Pay"
+#~ msgstr "微信支付"
+
+#~ msgid "WeChat loading fails, please click here to retry"
+#~ msgstr "支付信息加载失败，点此重试"
+
+#~ msgid "Loading WeChat Pay, please wait..."
+#~ msgstr "正在加载微信支付，请稍候..."
+
+#~ msgid "微信支付"
+#~ msgstr "alipay payment"
+
+#~ msgid "立即支付"
+#~ msgstr "Pay now"
+
+#~ msgid "发送成功"
+#~ msgstr "sended success"
+
+#~ msgid "启用/禁用"
+#~ msgstr "enable/disable"
+
+#~ msgid "启用微信支付"
+#~ msgstr "enable alipay payment"
+
+#~ msgid "AppID(应用ID)"
+#~ msgstr "AppID"
+
+#, fuzzy
+#~ msgid "应用ID， 在微信公众平台中 “开发者中心”栏目可以查看到"
+#~ msgstr "Application ID"
+
+#~ msgid "AppSecret(应用密钥)"
+#~ msgstr "AppSecret"
+
+#~ msgid "不启用"
+#~ msgstr "disabled"
+
+#~ msgid "启用"
+#~ msgstr "enable"
+
+#~ msgid "查询"
+#~ msgstr "search"
+
+#~ msgid "应用"
+#~ msgstr "apply"
+
+#~ msgid "选中全部"
+#~ msgstr "check all"
+
+#~ msgid "用户"
+#~ msgstr "user"
+
+#~ msgid "详细信息"
+#~ msgstr "view"
+
+#~ msgid "发送时间"
+#~ msgstr "send time"
+
+#~ msgid ""
+#~ "<h5>You are using an unauthorized Baidu Wallet plugin, please ask for<a "
+#~ "target=\"_blank\" href=\"http://www.wpweixin.net\">xunhu</a>!</h5>"
+#~ msgstr ""
+#~ "<h5>您正在使用未授权《Woocommerce百度钱包支付插件》插件，详情请询问<a "
+#~ "target=\"_blank\" href=\"http://www.wpweixin.net\">迅虎网络</a></h5>"
+
+#~ msgid "Baidu Wallet plugin depends on Woocommerce plugin "
+#~ msgstr "“Woocommerce支付宝插件”依赖woocommerce插件"
+
+#~ msgid "Ignore this notice."
+#~ msgstr "忽略此消息"
+
+#~ msgid "baidu NO."
+#~ msgstr "百度支付号："
+
+#~ msgid ""
+#~ "\"baidu pay for Woocommerce\" is enabled, but the store currency is not "
+#~ "set to Chinese Yuan. Please <a href=\"%1s\">set the %2s against the "
+#~ "Chinese Yuan exchange rate</a>."
+#~ msgstr ""
+#~ "百度钱包已启用，但您的主货币不是人民币，请<a href=\"%1s\">设置%2s转人民币"
+#~ "的汇率"
+
+#~ msgid "Enable Baidu Wallet"
+#~ msgstr "启用百度钱包"
+
+#~ msgid "Baidu Wallet, Balance, E-bank Online Payment + Mobile Payment"
+#~ msgstr "百度钱包支付、余额支付、网银支付和移动支付"
+
+#~ msgid "E-bank Online Payment + Mobile Payment"
+#~ msgstr "网银支付+移动网页支付"
+
+#~ msgid "Payment gateway will be shown at the checkout."
+#~ msgstr "支付网关名称，在结账时显示"
+
+#~ msgid "Baidu Wallet"
+#~ msgstr "百度钱包"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "KEY"
+#~ msgstr "百付宝合作密钥"
+
+#~ msgid "Turn on logging"
+#~ msgstr "启用日志功能"
+
+#~ msgid "Enable logging"
+#~ msgstr "启用日志功能"
+
+#~ msgid "Set the directory permissions to 777(%s)"
+#~ msgstr "设置目录%s的权限为777"
+
+#~ msgid ""
+#~ "Baidu Wallet is a simple, safe and fast online payment method with "
+#~ "deposit card, debit card, credit card, Alipay balance and etc. supported."
+#~ msgstr ""
+#~ "百度钱包是一个“简单、安全、快速”的在线支付方式，客户可以通过储蓄卡、借记"
+#~ "卡、信用卡或微信余额等方式付款。"
+
+#~ msgid "ICBC"
+#~ msgstr "中国工商银行"
+
+#~ msgid "CMBC"
+#~ msgstr "中国招商银行"
+
+#~ msgid "CCB"
+#~ msgstr "中国建设银行"
+
+#~ msgid "Agricultural Bank of China"
+#~ msgstr "中国农业银行"
+
+#~ msgid "China Citic Bank"
+#~ msgstr "中信银行"
+
+#~ msgid "Shanghai Pudong Development Bank"
+#~ msgstr "上海浦东发展银行"
+
+#~ msgid "CEB"
+#~ msgstr "中国光大银行"
+
+#~ msgid "Ping An Bank"
+#~ msgstr "平安银行"
+
+#~ msgid "Bank of Communications"
+#~ msgstr "交通银行"
+
+#~ msgid " Bank of China"
+#~ msgstr "中国银行"
+
+#~ msgid "Guangdong Development Bank"
+#~ msgstr "广东发展银行"
+
+#~ msgid "Postal savings bank"
+#~ msgstr "邮政储蓄银行"
+
+#~ msgid "Industrial Bank Co.,Ltd"
+#~ msgstr "兴业银行"
+
+#~ msgid "Bank of Shanghai"
+#~ msgstr "上海银行"
+
+#~ msgid "Shanghai Rural Commercial Bank"
+#~ msgstr "上海浦东发展银行"
+
+#~ msgid "The bank of China (large)"
+#~ msgstr "中国银行(大额)"
+
+#~ msgid "Bank of Beijing"
+#~ msgstr "北京银行"
+
+#~ msgid "Beijing Agricultural Bank"
+#~ msgstr "北京农业银行"
+
+#~ msgid "China Unionpay"
+#~ msgstr "中国银联"
+
+#~ msgid ""
+#~ "Baidu wallet balance of payment, payment, e-currency payment + mobile "
+#~ "payment page"
+#~ msgstr "百度钱包支付、余额支付、网银支付+移动网页支付"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr "支付网关名称，用户结账时显示"
+
+#~ msgid "This controls the description which the user sees during checkout."
+#~ msgstr "描述一下支付网关，用户结账时会看到"
+
+#~ msgid "Debug Log"
+#~ msgstr "开启日志"
+
+#~ msgid "Societe generale"
+#~ msgstr "兴业银行"
+
+#~ msgid "Shanghai agri-businesses"
+#~ msgstr "上海农商"
+
+#~ msgid "pay now"
+#~ msgstr "立即支付"

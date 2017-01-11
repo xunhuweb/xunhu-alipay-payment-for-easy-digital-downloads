@@ -29,6 +29,9 @@ class XH_Alipay_Payment_EDD_Api{
             return;
         }
   
+        if(isset($data['plugins'])&&$data['plugins']!='edd-alipay'){
+            return;
+        }
         $hash = $this->generate_xh_hash($data,$appkey);
         if($data['hash']!=$hash){
             return;
@@ -307,7 +310,7 @@ class XH_Alipay_Payment_EDD_Api{
         $data=array(
             'version'   => '1.0',//api version
             'lang'       => get_option('WPLANG','zh-cn'),
-            'plugins'   => $this->id,
+            'plugins'   => 'edd-alipay',
             'appid'     => edd_get_option('xh_alipay_payment_edd_appid'),
             'trade_order_id'=>  $payment_data['order_id'],
             'payment'   => 'alipay',

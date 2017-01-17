@@ -280,6 +280,7 @@ class XH_Alipay_Payment_EDD_Api{
        
 	    $payment_id = edd_insert_payment( $payment_data );
         if($payment_id===false){
+            edd_set_error(__( 'Payment Error', XH_ALIPAY_PAYMENT_EDD), __('Ops!Something is wrong',XH_ALIPAY_PAYMENT_EDD));
             edd_record_gateway_error( __( 'Payment Error', XH_ALIPAY_PAYMENT_EDD), __('Ops!Something is wrong',XH_ALIPAY_PAYMENT_EDD), $payment_id );
             edd_send_back_to_checkout( '?payment-mode=' . $purchase_data['post_data']['edd-gateway'] );
             return;
@@ -348,9 +349,10 @@ class XH_Alipay_Payment_EDD_Api{
             wp_redirect( $result['url']);
             exit;
         } catch (Exception $e) {
-            edd_record_gateway_error("errcode:{$e->getCode()},errmsg:{$e->getMessage()}", $payment_id );
+            edd_set_error(__( 'Payment Error', XH_Alipay_Payment), "errcode:{$e->getCode()},errmsg:{$e->getMessage()}");
+            edd_record_gateway_error(__( 'Payment Error', XH_Alipay_Payment),"errcode:{$e->getCode()},errmsg:{$e->getMessage()}", $payment_id );
             edd_send_back_to_checkout( '?payment-mode=' . $purchase_data['post_data']['edd-gateway'] );
-            exit;
+            return;
         }
     }
     

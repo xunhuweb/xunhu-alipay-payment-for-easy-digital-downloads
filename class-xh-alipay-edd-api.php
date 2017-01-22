@@ -309,7 +309,7 @@ class XH_Alipay_Payment_EDD_Api{
 	}
         $siteurl= $home_url;
         $data=array(
-            'version'   => '1.0',//api version
+            'version'   => '1.1',//api version
             'lang'       => get_option('WPLANG','zh-cn'),
             'plugins'   => 'edd-alipay',
             'appid'     => edd_get_option('xh_alipay_payment_edd_appid'),

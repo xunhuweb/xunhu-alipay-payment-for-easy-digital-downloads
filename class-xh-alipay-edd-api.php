@@ -90,9 +90,18 @@ class XH_Alipay_Payment_EDD_Api{
             edd_update_option('xh_alipay_payment_edd_title',__('Alipay Payment',XH_ALIPAY_PAYMENT_EDD));
         }
         
+        $val =edd_get_option('xh_alipay_payment_edd_appid');
+        if(empty($val)){
+            edd_update_option('xh_alipay_payment_edd_appid','20146123713');
+        }
+        
+        $val =edd_get_option('xh_alipay_payment_edd_appsecret');
+        if(empty($val)){
+            edd_update_option('xh_alipay_payment_edd_appsecret','6D7B025B8DD098C485F0805193136FB9');
+        }
         $val =edd_get_option('xh_alipay_payment_edd_transaction_url');
         if(empty($val)){
-            edd_update_option('xh_alipay_payment_edd_transaction_url','https://pay.wordpressopen.com');
+            edd_update_option('xh_alipay_payment_edd_transaction_url','https://pay.xunhupay.com');
         }
         
         $val =edd_get_option('xh_alipay_payment_edd_exchange_rate');
@@ -118,18 +127,22 @@ class XH_Alipay_Payment_EDD_Api{
 			        'id'=>'xh_alipay_payment_edd_appid',
 					'name'       => __( 'APP ID', XH_ALIPAY_PAYMENT_EDD ),
 					'type'        => 'text',
-                    'desc' =>__('<a target="_blank" href="http://mp.wordpressopen.com">register and get app id</a>.', XH_ALIPAY_PAYMENT_EDD )
+			        'default'=>'20146123713',
+                    'desc' =>'测试账户仅支持1元内价格'
 			),
 			'xh_alipay_payment_edd_appsecret' => array(
 			        'id'=>'xh_alipay_payment_edd_appsecret',
 					'name'       => __( 'APP Secret', XH_ALIPAY_PAYMENT_EDD ),
 					'type'        => 'text',
-                    'desc' =>__('<a target="_blank" href="http://mp.wordpressopen.com">register and get app secret</a>.', XH_ALIPAY_PAYMENT_EDD )
+			         'default'=>'6D7B025B8DD098C485F0805193136FB9',
 			),
 			'xh_alipay_payment_edd_transaction_url' => array(
 			    'id'=>'xh_alipay_payment_edd_transaction_url',
 					'name'       => __( 'Transaction Url', XH_ALIPAY_PAYMENT_EDD ),
-					'type'        => 'text'
+					'type'        => 'text',
+			         'default'=>'https://pay.xunhupay.com',
+			    'desc' =>'个人支付宝/微信即时到账，支付网关：https://pay.xunhupay.com  <a href="https://mp.xunhupay.com" target="_blank">获取Appid</a> <br/>
+                                                  微信支付宝代收款，需提现，支付网关：https://pay.wordpressopen.com <a href="http://mp.wordpressopen.com " target="_blank">获取Appid</a>'
 			),
             'xh_alipay_payment_edd_exchange_rate'=>array(
                 'id' => 'xh_alipay_payment_edd_exchange_rate',
@@ -175,6 +188,7 @@ class XH_Alipay_Payment_EDD_Api{
          
         $pre =array();
         foreach ($datas as $key => $data){
+            if(is_null($data)||$data===''){continue;}
             if($key=='hash'){
                 continue;
             }
@@ -191,11 +205,7 @@ class XH_Alipay_Payment_EDD_Api{
                 $arg.="&";
             }
         }
-         
-        if(get_magic_quotes_gpc()){
-            $arg = stripslashes($arg);
-        }
-    
+        
         return md5($arg.$hashkey);
     }
     

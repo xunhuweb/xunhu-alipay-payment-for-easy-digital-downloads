@@ -1,99 +1,99 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Alipay\n"
-"POT-Creation-Date: 2016-12-30 18:28+0800\n"
-"PO-Revision-Date: 2016-12-30 18:28+0800\n"
+"POT-Creation-Date: 2018-03-19 09:56+0800\n"
+"PO-Revision-Date: 2018-03-19 09:56+0800\n"
 "Last-Translator: ranj <ranj@evget.com>\n"
 "Language-Team: 重庆迅虎网络有限公司 <jeff@xunhuweb.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: class-xh-alipay-edd-api.php:78 class-xh-alipay-edd-api.php:221
-#: class-xh-alipay-edd-api.php:349 class-xh-alipay-edd-api.php:362
-#: class-xh-alipay-edd-api.php:363
+#: class-xh-alipay-edd-api.php:90 class-xh-alipay-edd-api.php:241
+#: class-xh-alipay-edd-api.php:378 class-xh-alipay-edd-api.php:391
+#: class-xh-alipay-edd-api.php:392
 msgid "Alipay Payment"
 msgstr "支付宝"
 
-#: class-xh-alipay-edd-api.php:96
+#: class-xh-alipay-edd-api.php:117
 msgid "Alipay Payment Settings"
 msgstr "支付宝设置"
 
-#: class-xh-alipay-edd-api.php:102
+#: class-xh-alipay-edd-api.php:123
 msgid "Title"
 msgstr "标题"
 
-#: class-xh-alipay-edd-api.php:107
+#: class-xh-alipay-edd-api.php:128
 msgid "APP ID"
 msgstr "APP ID"
 
-#: class-xh-alipay-edd-api.php:109
+#: class-xh-alipay-edd-api.php:131
 msgid ""
-"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">register and get "
+"<a target=\"_blank\" href=\"http://cp.wordpressopen.com\">register and get "
 "app id</a>."
 msgstr ""
-"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">注册并获取APP ID</"
+"<a target=\"_blank\" href=\"http://cp.wordpressopen.com\">注册并获取APP ID</"
 "a>."
 
-#: class-xh-alipay-edd-api.php:113
+#: class-xh-alipay-edd-api.php:135
 msgid "APP Secret"
 msgstr "APP Secret"
 
-#: class-xh-alipay-edd-api.php:115
-msgid ""
-"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">register and get "
-"app secret</a>."
-msgstr ""
-"<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">注册并获取APP "
-"Secret</a>."
-
-#: class-xh-alipay-edd-api.php:119
+#: class-xh-alipay-edd-api.php:141
 msgid "Transaction Url"
 msgstr "网关地址"
 
-#: class-xh-alipay-edd-api.php:124
+#: class-xh-alipay-edd-api.php:147
 msgid "exchange rate"
 msgstr "汇率"
 
-#: class-xh-alipay-edd-api.php:126
+#: class-xh-alipay-edd-api.php:149
 msgid ""
 "Please set current currency against Chinese Yuan exchange rate,default 1."
 msgstr "请设置当前货币转人民币的汇率，默认为1"
 
-#: class-xh-alipay-edd-api.php:242
+#: class-xh-alipay-edd-api.php:262
 msgid "Settings"
 msgstr "设置"
 
-#: class-xh-alipay-edd-api.php:260
+#: class-xh-alipay-edd-api.php:280
 msgid "Nonce verification has failed"
 msgstr "页面已失效，请刷新页面后重试"
 
-#: class-xh-alipay-edd-api.php:260
+#: class-xh-alipay-edd-api.php:280
 msgid "Error"
 msgstr "错误"
 
-#: class-xh-alipay-edd-api.php:280
+#: class-xh-alipay-edd-api.php:300 class-xh-alipay-edd-api.php:301
+#: class-xh-alipay-edd-api.php:370 class-xh-alipay-edd-api.php:371
 msgid "Payment Error"
 msgstr "支付错误"
 
-#: class-xh-alipay-edd-api.php:280
+#: class-xh-alipay-edd-api.php:300 class-xh-alipay-edd-api.php:301
 msgid "Ops!Something is wrong"
 msgstr "噢！发生了不可预测的错误。"
 
-#: class-xh-alipay-edd-api.php:332
+#: class-xh-alipay-edd-api.php:360
 msgid "Invalid sign!"
 msgstr "签名无效！"
 
-#: class-xh-alipay-edd-api.php:355
+#: class-xh-alipay-edd-api.php:384
 msgid "Chinese Yuan(&yen;)"
 msgstr "人民币(&yen;)"
+
+#~ msgid ""
+#~ "<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">register and "
+#~ "get app secret</a>."
+#~ msgstr ""
+#~ "<a target=\"_blank\" href=\"http://mp.wordpressopen.com\">注册并获取APP "
+#~ "Secret</a>."
 
 #~ msgid "return_msg:%s ;err_code_des:%s "
 #~ msgstr "return_msg:%s ;err_code_des:%s "

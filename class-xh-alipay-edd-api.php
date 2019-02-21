@@ -140,7 +140,7 @@ class XH_Alipay_Payment_EDD_Api{
 			    'id'=>'xh_alipay_payment_edd_transaction_url',
 					'name'       => __( 'Transaction Url', XH_ALIPAY_PAYMENT_EDD ),
 					'type'        => 'text',
-			         'default'=>'https://pay.xunhupay.com',
+			         'default'=>'https://pay2.xunhupay.com/v2',
 			    'desc' =>'个人支付宝/微信即时到账，支付网关：https://pay.xunhupay.com  <a href="https://mp.xunhupay.com" target="_blank">获取Appid</a> <br/>
                                                   微信支付宝代收款，需提现，支付网关：https://pay.wordpressopen.com <a href="http://mp.wordpressopen.com " target="_blank">获取Appid</a>'
 			),
